@@ -35,7 +35,6 @@ android {
 }
 
 dependencies {
-    api project(path: ':shadow', configuration: 'shadow')
     embed project(path: ':shadow', configuration: 'shadow')
 }
 
