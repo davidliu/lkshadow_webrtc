@@ -35,6 +35,7 @@ android {
 }
 
 dependencies {
+    compileOnly project(path: ':shadow', configuration: 'shadow')
     embed project(path: ':shadow', configuration: 'shadow')
 }
 
